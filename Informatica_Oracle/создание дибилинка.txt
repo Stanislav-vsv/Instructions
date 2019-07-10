@@ -1,0 +1,26 @@
+
+
+
+
+CREATE DATABASE LINK DW_INF_PROD
+ CONNECT TO MONITORING  -- Сдесь MONITORING  это UserName   
+ IDENTIFIED BY ware22mon  -- Сдесь ware22mon  это Password
+ USING 'DWINFPRD_TAF';
+
+
+
+вместо полной тнс-ки можно писать сокращенно 'DWINFPRD_TAF'или полный вариант, например:
+
+ USING 'DWINFPRD=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=bi2et6)(PORT=1521))(CONNECT_DATA=(SERVER=dedicated)(SID=DWINFPRD)))';
+
+
+
+--ПРОВЕРКА(ЕСЛИ НЕ СОЗДАЛСЯ ТО БУДЕТ ОШИБКА):
+
+SELECT * FROM DUAL@DW_INF_PROD;
+
+
+
+
+если у учетки, под которой сделан дблинк, в той базе куда он смотрит, нет привелегий на чтение таблиц из других схем
+то в той базе надо добавить для нее грант: GRANT SELECT ANY TABLE TO MONITORING;  (но для этого нужны привилегии)
