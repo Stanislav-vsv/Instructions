@@ -1,0 +1,16 @@
+﻿
+
+//////////////// bda11 //////////////////////////// 
+
+oozie job -oozie http://bda11node04.moscow.alfaintra.net:11000/oozie -configcontent 0240969-180807113211559-oozie-oozi-W > ./oouzie_config.xml
+
+oozie job -oozie http://bda11node04.moscow.alfaintra.net:11000/oozie -rerun 0240969-180807113211559-oozie-oozi-W -Doozie.wf.rerun.failnodes=true -config oouzie_config.xml
+
+
+
+
+//////////////// bda21 //////////////////////////// 
+
+oozie job -oozie http://bda21node04.moscow.alfaintra.net:11000/oozie -configcontent 0025677-181219134737724-oozie-oozi-W > ./oouzie_config.xml
+
+oozie job -oozie http://bda21node04.moscow.alfaintra.net:11000/oozie -rerun 0025677-181219134737724-oozie-oozi-W -Doozie.wf.rerun.failnodes=true -config oouzie_config.xml

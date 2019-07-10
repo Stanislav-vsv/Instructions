@@ -1,0 +1,1 @@
+show create table s_dwh.cardtransaction_htran_arch;

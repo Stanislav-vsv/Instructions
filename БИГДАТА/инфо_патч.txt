@@ -1,0 +1,107 @@
+Вход в интерфейс проверок Apex:
+http://bc1et4:8080/apex/f?p=102:LOGIN:2232290141450902::::: SVVolkov / SVVolkov 
+новый интерфейс после переезда 15.02.2019 - http://biveridata2:8081/ords/f?p=DQBI
+
+
+hdfs dfs -cp /storage/s_dwh/db/OPERATION_TRAN/date_part=201512* /test/t_dwh/db/OPERATION_TRAN/
+
+
+JIRA_USER="debitsvzn_tech_user"
+JIRA_PASSWORD="6yfn^THC"
+
+
+hdfs dfs -cp /pilot/p_ufpa/db/moo_allassets_stat/date_part=20180331 /user/u_m0g4q/db/moo_allassets_stat/
+
+hdfs dfs -cp /storage/s_dwh/db/client_hdim/* /test/t_dwh/db/client_hdim/
+
+yarn application -kill application_1558935903814_1067
+
+
+u_m0g4q
+bipython2
+
+hadoop fs -ls user/u_m0g4q/db/moo_allassets_stat
+
+
+
+hdfs dfs -cp /storage/s_sourcedata/db/sm_rep_reports_builder_incidents/* /test/t_sourcedata/db/sm_rep_reports_builder_incidents/
+
+hdfs dfs -chown -R p_rr_anl:p_rr_anl_w /pilot/p_rr_anl/db/dealrate_vhist
+
+hdfs dfs -cp /storage/s_dwh/db/calltoclientdetail_tran_old/part_month=201309 /test/t_dwh/db/calltoclientdetail_tran_old/
+
+hdfs dfs -cp hdfs://bda11node01:8020/user/u_m0zv5/db/rbsalescampaign_sdim/* /pilot/p_rr_anl/db/rbsalescampaign_sdim/ 
+hdfs dfs -cp hdfs://bda11node01:8020/user/u_m0zv5/db/odh002_eq_ywjpf002_mirror/* /user/u_m0wbc/db/odh002_eq_ywjpf002_mirror/ 
+hdfs dfs -cp /user/u_m0zv5/db/vu_prd2prdgroupbank_sdim/* hdfs://bda31node02:8020/pilot/p_rr_anl/db/vu_prd2prdgroupbank_sdim/ 
+
+
+
+
+hdfs dfs -du -s -h /live_system/l_deriveddata/
+hdfs dfs -du -s -h /test/t_sourcedata/db/*
+
+Дефектов не обнаружено. Патч рекомендован к установке в промышленную среду.
+Патч установлен в тест(изменения)
+
+
+hadoop fs -cp /storage/s_dwh/db/client_hdim/* /test/t_dwh/db/client_hdim/
+
+
+drop table if exists t_dmrb.currency_sdim;
+
+
+Sofiya D Plaksina, Vitaliy A Shilin, Evgeniy E Prusov
+BI_BigData_Support, Grigoriy N Nikulin, Ruslan Z Bizhanov
+
+
+sh ./run_hive_scripts.sh  >  log.txt  2>&1
+
+error
+Fatal error
+DiskSpace quota
+max.dynamic.partitions
+FAIL
+Invalid
+memory limits
+Killing container
+Table not found
+
+
+SVVolkov
+Moscow\IPCDeveloper
+FbcnbKbcf12
+readonly
+
+
+u_m0g4q
+http://bda11node04:8888
+bda11node06
+bda21node06
+bda31node06
+tech_oozie
+
+
+
+Информатика, репозтирой REP_MON2, пароль support: sup17port
+
+
+Доступы:
+
+hue: http://bda41node01.moscow.alfaintra.net:8899
+terminal: bda41node04:22
+beeline: beeline -u "jdbc:hive2://bda41node04:10000/;principal=hive/bda41node04.moscow.alfaintra.net@moscow.alfaintra.net"line: 
+hdfs://bda41:8020
+
+---
+С уважением,
+Максим Генцель
+6268.
+
+
+
+
+
+
+
+
+

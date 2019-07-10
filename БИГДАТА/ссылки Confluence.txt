@@ -1,0 +1,18 @@
+
+Настройка ODBC коннекта - http://confluence.moscow.alfaintra.net/pages/viewpage.action?pageId=213450271
+
+Реестр запросов на данные  - http://confluence.moscow.alfaintra.net/pages/viewpage.action?pageId=213439071
+
+Mануал как правильно писать SQL в Hive/Impala - http://confluence.moscow.alfaintra.net/pages/viewpage.action?pageId=227481794 
+
+Инструкция по настройке подключения DBeaver к Impala кластера Hadoop -  
+http://confluence.moscow.alfaintra.net/pages/viewpage.action?pageId=236866929
+
+Введение в работу с Impala:
+http://confluence.moscow.alfaintra.net/pages/viewpage.action?pageId=213446170
+
+Pапрос на репликацию новых данных в confluence, инструкция как это сделать:
+http://confluence.moscow.alfaintra.net/pages/viewpage.action?pageId=215164578
+
+How To(все инструкции)
+http://confluence.moscow.alfaintra.net/display/HADOOP/How+To

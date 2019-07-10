@@ -1,0 +1,7 @@
+﻿
+
+hdfs dfs -rm -r –f /storage/s_sourcedata/db/clientcontact_sdim_tmp
+
+hdfs dfs -rm -r –f /user/tech_oozie/oozie_workflows/atom/wf_edmailru_*
+
+hdfs dfs -rm -r –f /user/tech_oozie/oozie_workflows/man/crd_hist_edmailru_*
